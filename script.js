@@ -1,5 +1,5 @@
 let inputString = prompt("Введіть рядок:");
-let charsToRemoveString = prompt("Введіть символи для видалення (введіть їх одним рядком):");
+let charsToRemoveString = prompt("Введіть символи для видалення:");
 
 if (inputString === null || inputString.trim() === '' || charsToRemoveString === null || charsToRemoveString.trim() === '') {
     console.log("Error!");
